@@ -14,7 +14,7 @@ spec:
         app: vote-ui
     spec:
       containers:
-      - image: docker.io/paulkrix/vote:6eabfcdfd0c9d960fb46539190e86161631f2f66
+      - image: docker.io/paulkrix/vote:v13
         name: vote-ui
         ports:
         - containerPort: 80
